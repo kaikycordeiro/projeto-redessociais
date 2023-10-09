@@ -43,3 +43,21 @@ body {
     width: 265px;
     height: 469px;
 }
+
+.redes-sociais {
+    text-align: right;
+}
+
+.redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.356);
+    box-sizing: border-box;
+}
+
+.redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.479);
+    transform: scale(1.2);
+    transition: transform 0.3s;
+}
